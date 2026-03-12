@@ -6,7 +6,7 @@ ADD . /app
 
 # Copy requirements and bot code
 COPY requirements.txt .
-COPY bot.py .
+
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
