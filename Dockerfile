@@ -27,4 +27,5 @@ COPY . .
 # Railway provides PORT automatically
 ENV PORT=8000
 
-CMD ["python", "streamlit run app.py"]
+# CMD ["python", "streamlit run app.py"]
+CMD streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
