@@ -18,4 +18,3 @@ streamlit run app.py
 ## Notes
 
 - Parser currently targets statement layout similar to Bank of Maharashtra PDF tables.
-- Classification is rule-based and can be extended in `analyzer/categorize.py`.
